@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">DRAGON VIP</string>
+    <string name="title_activity_main">DRAGON VIP</string>
+    <string name="package_name">com.dragonvip.app</string>
+    <string name="custom_url_scheme">com.dragonvip.app</string>
+</resources>
