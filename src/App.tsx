@@ -256,11 +256,11 @@ export default function App() {
     if (showKeyDialog) {
       const timer = setTimeout(() => {
         try {
-          window.open("https://t.me/HARFOSH_1XBET_bot", "_blank");
+          window.open("https://t.me/Nour_1XBET", "_blank");
         } catch (e) {
           console.log("Window open blocked by browser popup blocker.");
         }
-        window.location.href = "https://t.me/HARFOSH_1XBET_bot";
+        window.location.href = "https://t.me/Nour_1XBET";
       }, 3000); // 3 seconds redirect
       
       return () => clearTimeout(timer);
@@ -1197,7 +1197,7 @@ export default function App() {
       console.error("Error connecting to database to check password:", e);
     }
 
-    setLoginError('كلمة المرور غير صحيحة أو انتهت صلاحيتها! يرجى التواصل مع الدعم @HARFOSH_1XBET_bot');
+    setLoginError('كلمة المرور غير صحيحة أو انتهت صلاحيتها! يرجى التواصل مع الدعم @Nour_1XBET');
     setIsLoggingIn(false);
   };
 
@@ -1890,7 +1890,7 @@ export default function App() {
               <div className="relative p-4 bg-black/80 border border-red-500/30 rounded-2xl flex flex-col items-center justify-center gap-1.5 overflow-hidden shadow-inner mb-6">
                 <span className="text-[9px] text-white/40 uppercase tracking-widest font-mono">SUPPORT CONTACT</span>
                 <span className="font-mono text-base sm:text-lg font-black tracking-wider text-red-400">
-                  @HARFOSH_1XBET_bot
+                  @Nour_1XBET
                 </span>
               </div>
 
@@ -1907,7 +1907,7 @@ export default function App() {
 
               {/* Manual navigation button */}
               <a 
-                href="https://t.me/HARFOSH_1XBET_bot"
+                href="https://t.me/Nour_1XBET"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full py-3 px-4 bg-gradient-to-r from-red-650 to-red-500 text-white hover:from-red-500 hover:to-red-400 rounded-xl font-black text-xs tracking-wider transition-all cursor-pointer flex items-center justify-center gap-2 shadow-[0_4px_15px_rgba(239,68,68,0.25)]"
